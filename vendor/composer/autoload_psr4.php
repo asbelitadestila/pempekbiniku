@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'SnapBi\\' => array($vendorDir . '/midtrans/midtrans-php/SnapBi'),
     'Midtrans\\' => array($vendorDir . '/midtrans/midtrans-php/Midtrans'),
 );

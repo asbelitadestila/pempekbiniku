@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInitf7e9b5f946f7ec9110439346d71c9f07
 {
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'SnapBi\\' => 7,
+        ),
         'M' => 
         array (
             'Midtrans\\' => 9,
@@ -14,6 +18,10 @@ class ComposerStaticInitf7e9b5f946f7ec9110439346d71c9f07
     );
 
     public static $prefixDirsPsr4 = array (
+        'SnapBi\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/midtrans/midtrans-php/SnapBi',
+        ),
         'Midtrans\\' => 
         array (
             0 => __DIR__ . '/..' . '/midtrans/midtrans-php/Midtrans',
