@@ -1,5 +1,6 @@
 <?php
 session_start(); // Start the session
+require 'vendor/autoload.php';
 
 include 'cek_role.php';
 
@@ -68,7 +69,7 @@ foreach ($items as $item) {
     $total_amount += $item['harga'] * $item['jumlah'];
 }
 
-require '/vendor/autoload.php';
+
 
 // Set your server key
 \Midtrans\Config::$serverKey = 'SB-Mid-server-C1ta5HP9_KFpsSrBQaSJP3zC'; // <-- PASTIKAN INI BENAR

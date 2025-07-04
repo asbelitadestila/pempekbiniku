@@ -1,5 +1,5 @@
 {
     "require": {
-        "midtrans/midtrans-php": "^2.5"
+        "midtrans/midtrans-php": "^2.6"
     }
 }
