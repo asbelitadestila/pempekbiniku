@@ -1,5 +1,5 @@
 <?php 
-$test = 1;
+$test = "test";
 ?>
 <!DOCTYPE html>
 <html lang="en">
