@@ -1,5 +1,5 @@
 <?php 
-$test = "asbelita farasy cuantuik nyoooo";
+$test = "ao";
 ?>
 <!DOCTYPE html>
 <html lang="en">
