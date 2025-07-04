@@ -41,11 +41,11 @@ while($pecah = $ambil->fetch_assoc())
                     <td class="text-center border border-gray-300 p-2" style="width: 200px;">
                         <a href="Edit/edit_transaksi.php?id=<?php 
                         echo $value['id']; ?>" class="inline-block px-2 py-1 text-xs text-white bg-blue-500 rounded hover:bg-blue-600">
-                            <i class="fas fa-truck-pickup"></i>
+                            Edit
                         </a>
                         <a href="index.php?halaman=detail_pembelian&id=<?php 
                         echo $value['id']; ?>" class="inline-block px-2 py-1 text-xs text-white bg-blue-500 rounded hover:bg-blue-600">
-                            <i class="fas fa-info"></i>
+                            Detail
                         </a>
                     </td>
                 </tr>
